@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "tag": "c:rods/wooden"
+    },
+    {
+      "tag": "c:rods/wooden"
+    },
+    {
+      "item": "rudimentary:flax"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "rudimentary:fire_starter"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_flax": {
+      "conditions": {
+        "items": [
+          {
+            "items": "rudimentary:flax"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_flax_twine": {
+      "conditions": {
+        "items": [
+          {
+            "items": "rudimentary:flax_twine"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "rudimentary:flax_twine"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_flax_twine",
+      "has_flax"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rudimentary:flax_twine"
+    ]
+  }
+}

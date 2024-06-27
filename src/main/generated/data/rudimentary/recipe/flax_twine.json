@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rudimentary:flax"
+    },
+    {
+      "item": "rudimentary:flax"
+    },
+    {
+      "item": "rudimentary:flax"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "rudimentary:flax_twine"
+  }
+}

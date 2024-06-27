@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "f": {
+      "item": "rudimentary:flaked_flint"
+    },
+    "s": {
+      "tag": "c:rods/wooden"
+    },
+    "t": {
+      "tag": "c:strings"
+    }
+  },
+  "pattern": [
+    "ftf",
+    " s ",
+    " s "
+  ],
+  "result": {
+    "count": 1,
+    "id": "rudimentary:flint_pickaxe"
+  }
+}

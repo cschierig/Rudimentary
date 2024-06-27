@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "rudimentary",
+  "version": "${version}",
+  "name": "Rudimentary",
+  "description": "Slow down early game progression by gathering resources before breaking blocks.",
+  "authors": [
+    "CozyPenguin"
+  ],
+  "contact": {
+    "sources": "https://github.com/cschierig/rudimentary",
+    "issues": "https://github.com/cschierig/rudimentary/issues"
+  },
+  "license": "LGPL-3.0-only",
+  "icon": "assets/rudimentary/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.carlschierig.rudimentary.Rudimentary"
+    ],
+    "client": [
+      "com.carlschierig.rudimentary.RudimentaryClient"
+    ],
+    "fabric-datagen": [
+      "com.carlschierig.rudimentary.datagen.RudimentaryDataGenerator"
+    ]
+  },
+  "mixins": [
+    "rudimentary.mixins.json",
+    {
+      "config": "rudimentary.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*",
+    "immersive_crafting": ">=0.4.3"
+  },
+  "suggests": {
+  }
+}

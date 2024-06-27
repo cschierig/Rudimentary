@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "f": {
+      "item": "rudimentary:fire_starter"
+    },
+    "l": {
+      "tag": "minecraft:logs"
+    },
+    "s": {
+      "tag": "c:rods/wooden"
+    }
+  },
+  "pattern": [
+    " s ",
+    "sfs",
+    "lll"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:campfire"
+  }
+}
