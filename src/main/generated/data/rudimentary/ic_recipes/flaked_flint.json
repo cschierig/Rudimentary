@@ -1,12 +1,14 @@
 {
   "type": "immersive_crafting:use_item_on",
-  "ingredient": {
-    "type": "immersive_crafting:item",
-    "stack": {
-      "count": 1,
-      "id": "minecraft:flint"
+  "ingredients": [
+    {
+      "type": "immersive_crafting:item_stack",
+      "stack": {
+        "count": 1,
+        "id": "minecraft:flint"
+      }
     }
-  },
+  ],
   "predicate": {
     "conditions": [
       {

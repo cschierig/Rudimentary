@@ -37,7 +37,7 @@
     "minecraft": "~1.21",
     "java": ">=21",
     "fabric-api": "*",
-    "immersive_crafting": ">=0.4.3"
+    "immersive_crafting": ">=0.5.0"
   },
   "suggests": {
   }
