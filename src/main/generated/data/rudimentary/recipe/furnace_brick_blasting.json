@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "rudimentary:unfired_furnace_brick"
+  },
+  "result": {
+    "id": "rudimentary:furnace_brick"
+  }
+}

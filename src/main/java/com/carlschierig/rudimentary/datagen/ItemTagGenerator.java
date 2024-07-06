@@ -20,5 +20,6 @@ public class ItemTagGenerator extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ItemTags.AXES).add(RudimentaryItems.FLINT_HATCHET);
         getOrCreateTagBuilder(ItemTags.PICKAXES).add(RudimentaryItems.FLINT_PICKAXE);
         getOrCreateTagBuilder(ConventionalItemTags.STRINGS).add(RudimentaryItems.FLAX_TWINE);
+        getOrCreateTagBuilder(ConventionalItemTags.BRICKS).add(RudimentaryItems.FURNACE_BRICK);
     }
 }

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_furnace_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "rudimentary:furnace_bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:furnace_brick_wall_from_furnace_bricks_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_furnace_bricks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:furnace_brick_wall_from_furnace_bricks_stonecutting"
+    ]
+  }
+}

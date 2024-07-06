@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "minecraft:clay_ball"
+    },
+    "s": {
+      "tag": "minecraft:sand"
+    }
+  },
+  "pattern": [
+    " c ",
+    "csc",
+    " c "
+  ],
+  "result": {
+    "count": 4,
+    "id": "rudimentary:unfired_furnace_brick"
+  }
+}

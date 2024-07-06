@@ -21,7 +21,7 @@ public class FlintTier implements Tier {
 
     @Override
     public float getAttackDamageBonus() {
-        return 2.0f;
+        return 1.0f;
     }
 
     @Override

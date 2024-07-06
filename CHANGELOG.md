@@ -1,1 +1,4 @@
-- update to Immersive Crafting 0.5.0
+- Add Brick Furnace
+- Add unfired and fired furnace brick
+- add furnace bricks block family
+- configure creative mode item groups

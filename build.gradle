@@ -94,6 +94,7 @@ if (System.getenv("MODRINTH_TOKEN") != null) {
         syncBodyFrom = rootProject.file("README.md").text
         dependencies {
             required.project("fabric-api")
+            required.project("immersive-crafting")
         }
         gameVersions = [project.minecraft_version]
         loaders = ["fabric", "quilt"]

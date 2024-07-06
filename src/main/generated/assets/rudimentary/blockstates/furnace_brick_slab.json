@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "rudimentary:block/furnace_brick_slab"
+    },
+    "type=double": {
+      "model": "rudimentary:block/furnace_bricks"
+    },
+    "type=top": {
+      "model": "rudimentary:block/furnace_brick_slab_top"
+    }
+  }
+}

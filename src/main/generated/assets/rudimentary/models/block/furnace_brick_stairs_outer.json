@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "rudimentary:block/furnace_bricks",
+    "side": "rudimentary:block/furnace_bricks",
+    "top": "rudimentary:block/furnace_bricks"
+  }
+}
