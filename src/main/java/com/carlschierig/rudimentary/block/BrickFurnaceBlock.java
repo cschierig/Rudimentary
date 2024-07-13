@@ -30,7 +30,7 @@ public class BrickFurnaceBlock extends FurnaceBlock {
     @Nullable
     @Override
     public <T extends BlockEntity> BlockEntityTicker<T> getTicker(Level level, BlockState blockState, BlockEntityType<T> blockEntityType) {
-        return createFurnaceTicker(level, blockEntityType, RudimentaryBlockEntities.BRICK_FURNACE);
+        return level.isClientSide ? null : createTickerHelper(blockEntityType, RudimentaryBlockEntities.BRICK_FURNACE, BrickFurnaceBlockEntity::brickFurnaceTick);
     }
 
     @Override

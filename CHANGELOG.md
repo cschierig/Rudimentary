@@ -1,4 +1,3 @@
-- Add Brick Furnace
-- Add unfired and fired furnace brick
-- add furnace bricks block family
-- configure creative mode item groups
+- fix brick furnace speed
+- add blocks to mineable tag
+- add block loot tables

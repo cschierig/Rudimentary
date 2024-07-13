@@ -12,5 +12,7 @@ public class RudimentaryDataGenerator implements DataGeneratorEntrypoint {
         pack.addProvider(TranslationGenerator::new);
         pack.addProvider(RecipeGenerator::new);
         pack.addProvider(ItemTagGenerator::new);
+        pack.addProvider(BlockTagGenerator::new);
+        pack.addProvider(BlockLootTableGenerator::new);
     }
 }
